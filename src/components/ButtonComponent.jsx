@@ -1,4 +1,4 @@
-const ButtonComponent = () => {
-  return <button>INVIA</button>;
+const ButtonComponent = ({ text }) => {
+  return <button>{text}</button>;
 };
 export default ButtonComponent;
